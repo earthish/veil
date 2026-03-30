@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Veil",
+    "version": "1.0",
+    "description": "Softly fades music into the background while watching lectures.",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*"
+            ],
+            "js": [
+                "youtube.js"
+            ]
+        },
+        {
+            "matches": [
+                "*://music.apple.com/*"
+            ],
+            "js": [
+                "applemusic.js"
+            ]
+        }
+    ]
+}
