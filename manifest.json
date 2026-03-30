@@ -26,6 +26,14 @@
             "js": [
                 "applemusic.js"
             ]
+        },
+        {
+            "matches": [
+                "*://open.spotify.com/*"
+            ],
+            "js": [
+                "spotify.js"
+            ]
         }
     ]
 }
