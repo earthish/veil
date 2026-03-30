@@ -1,4 +1,4 @@
-# Veil 🎧
+# Veil
 
 Veil is a seamless Chrome extension designed to automatically manage your background study music. It intelligently detects when you start a lecture or video on YouTube, and flawlessly "ducks" your Apple Music volume down to absolute zero. When you pause the video, the music gently swells back up, keeping your focus completely unbroken without ever having to switch tabs.
 
